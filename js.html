@@ -1,1 +1,17 @@
-nihao
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>HTML页面反向显示</title>
+	</head>
+	<body>
+		<p id="ltr" dir="ltr">
+			这是一段反向的文字<br>
+			我是反向文字下面的一段话
+		</p>
+		<script>
+			var ltr = document.getElementById("ltr");
+			ltr.dir="rtl";
+		</script>
+	</body>
+</html>
